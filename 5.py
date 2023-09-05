@@ -1,6 +1,6 @@
 #10 most frequently appearing words in a text file
 
-with open("sample.txt","r") as file:
+with open("sample.txt","r") as file:     #replcae your txt file here
      text=file.read()
 
 text=text.lower()
